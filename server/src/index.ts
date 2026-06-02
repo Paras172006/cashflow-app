@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 8000;
 connectDB();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+origin: ["http://localhost:3000", "https://cashflow-app95.vercel.app"],
   credentials: true,
 };
 
